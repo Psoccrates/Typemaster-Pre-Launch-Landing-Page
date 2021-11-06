@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Typemaster Landing Page, Frontend Mentor, Challenge Complete, Portfolio, HTML, Vanilla CSS"
+    />
+    <meta
+      name="description"
+      content="Typemaster Landing Page challenge completed by Psoccrates Stansberry"
+    />
+    <title>Typemaster Pre-Launch Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <header>
+      <nav class="nav-bar">
+        <span data-aos="flip-left" data-aos-duration="1500">
+          <svg class="icon-logo">
+            <use href="/src/images/sprite.svg#logo"></use>
+          </svg>
+        </span>
+        <button
+          aria-label="Pre-order Secondary Button"
+          class="btn btn--secondary"
+        >
+          Pre-order now
+        </button>
+      </nav>
+      <section class="grid grid--1x2 grid--1x2__hero">
+        <section
+          class="hero__header"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <h1>Typemaster Keyboard</h1>
+          <p class="paragraph__header">
+            Improve your productivity and gaming without breaking the bank.
+            Upgrade to a high quality mechanical typing experience.
+          </p>
+          <div class="btn--wrapper">
+            <button
+              aria-label="Pre-order Primary Button"
+              class="btn btn--primary"
+            >
+              Pre-order now
+            </button>
+            <div class="badge">
+              <p class="badge--paragraph">Release on 5/27</p>
+            </div>
+          </div>
+        </section>
+        <div
+          class="hero__pattern-container"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <span>
+            <svg class="hero__pattern--upper">
+              <use href="/src/images/sprite.svg#pattern-square"></use>
+            </svg>
+          </span>
+        </div>
+        <div
+          class="keyboard-container"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <picture class="keyboard">
+            <source
+              type="image/webp"
+              srcset="/src/images/image-keyboard-mobile.webp"
+            />
+            <source
+              type="image/jpg"
+              srcset="/src/images/image-keyboard-mobile.jpg"
+            />
+            <source
+              media="(min-width: 550px)"
+              type="image/webp"
+              srcset="/src/images/image-keyboard-tablet.webp"
+            />
+            <source
+              media="(min-width: 550px)"
+              type="image/jpg"
+              srcset="/src/images/image-keyboard-tablet.jpg"
+            />
+            <source
+              media="(min-width: 864px)"
+              type="image/webp"
+              srcset="/src/images/image-keyboard-desktop.webp"
+            />
+            <source
+              media="(min-width: 864px)"
+              type="image/jpg"
+              srcset="/src/images/image-keyboard-desktop.jpg"
+            />
+            <img
+              src="/src/images/image-keyboard-tabet.jpg"
+              alt="Typemaster keyboard"
+            />
+          </picture>
+        </div>
+      </section>
+    </header>
+    <!-- Product Content Block-->
+    <div
+      class="product__header--content"
+      data-aos="fade-right"
+      data-aos-duration="1500"
+    >
+      <div class="product__header--images">
+        <span class="product__pattern-container">
+          <svg class="product__pattern">
+            <use href="/src/images/sprite.svg#pattern-square"></use>
+          </svg>
+        </span>
+        <div class="product__image-container">
+          <picture class="keyboard-and-phone">
+            <source
+              type="image/webp"
+              srcset="/src/images/image-phone-and-keyboard-mobile.webp"
+            />
+            <source
+              type="image/jpg"
+              srcset="/src/images/image-phone-and-keyboard-mobile.jpg"
+            />
+            <source
+              media="(min-width: 550px)"
+              type="image/webp"
+              srcset="/src/images/image-phone-and-keyboard-tablet.webp"
+            />
+            <source
+              media="(min-width: 550px)"
+              type="image/jpg"
+              srcset="/src/images/image-phone-and-keyboard-tablet.jpg"
+            />
+            <source
+              media="(min-width: 864px)"
+              type="image/webp"
+              srcset="/src/images/image-phone-and-keyboard-desktop.webp"
+            />
+            <source
+              media="(min-width: 864px)"
+              type="image/jpg"
+              srcset="/src/images/image-phone-and-keyboard-desktop.jpg"
+            />
+            <img
+              src="/src/images/image-phone-and-keyboard-tablet.jpg"
+              alt="Typemaster keyboard sitting next to a cellphone."
+            />
+          </picture>
+          <div class="color-overlay"></div>
+        </div>
+        <picture class="keyboard-and-laptop">
+          <source
+            type="image/webp"
+            srcset="/src/images/image-glass-and-keyboard-mobile.webp"
+          />
+          <source
+            type="image/jpg"
+            srcset="/src/images/image-glass-and-keyboard-mobile.jpg"
+          />
+          <source
+            media="(min-width: 550px)"
+            type="image/webp"
+            srcset="/src/images/image-glass-and-keyboard-tablet.webp"
+          />
+          <source
+            media="(min-width: 550px)"
+            type="image/jpg"
+            srcset="/src/images/image-glass-and-keyboard-tablet.webp"
+          />
+          <source
+            media="(min-width: 864px)"
+            type="image/webp"
+            srcset="/src/images/image-glass-and-keyboard-desktop.webp"
+          />
+          <source
+            media="(min-width: 864px)"
+            type="image/jpg"
+            srcset="/src/images/image-glass-and-keyboard-desktop.jpg"
+          />
+          <img
+            src="/src/images/image-glass-and-keyboard-tablet.jpg"
+            alt="Typemaster keyboard used infront of a laptop."
+          />
+        </picture>
+      </div>
+      <header
+        class="product__header"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
+        <h2>
+          Mechanical
+          <br />
+          wireless
+          <br />
+          keyboard
+        </h2>
+        <p class="paragraph__feature">
+          The Typemaster keyboard boasts top-notch build and practical design.
+          It offers a wide variety of switches and keycaps, along with reliable
+          wireless connectivity.
+        </p>
+      </header>
+    </div>
+    <!-- Features Block -->
+    <article
+      class="grid grid--1x2 grid--1x4"
+      data-aos="flip-right"
+      data-aos-duration="1500"
+    >
+      <article class="feature__card">
+        <span class="icon-container">
+          <svg class="icon-compatible">
+            <use href="/src/images/sprite.svg#icon-compatible"></use>
+          </svg>
+        </span>
+        <h3>
+          HIGHLY
+          <br />
+          COMPATIBLE
+        </h3>
+        <p class="paragraph__feature">
+          Easy to use and works well with all major computer brands, gaming
+          consoles and mobile devices. Plug & play, no installation or driver
+          needed.
+        </p>
+      </article>
+      <article class="feature__card">
+        <span class="icon-container">
+          <svg class="icon-bluetooth">
+            <use href="/src/images/sprite.svg#icon-bluetooth"></use>
+          </svg>
+        </span>
+        <h3>
+          WIRELESS
+          <br />
+          WITH BLUETOOTH
+        </h3>
+        <p class="paragraph__feature">
+          Powerful 2.4G RF technology allows you to connect the cordless
+          keyboard from up to 30ft away. Simply plug the unifying receiver into
+          your computer.
+        </p>
+      </article>
+      <article class="feature__card">
+        <span class="icon-container">
+          <svg class="icon-battery">
+            <use href="/src/images/sprite.svg#icon-battery"></use>
+          </svg>
+        </span>
+        <h3>
+          HIGH CAPACITY
+          <br />
+          BATTERY
+        </h3>
+        <p class="paragraph__feature">
+          Equipped with a long-lasting built-in battery, you’ll never have to
+          spend a dime on replaceable ones. Enjoy 40 hours of usage time between
+          charges.
+        </p>
+      </article>
+      <article class="feature__card">
+        <span class="icon-container">
+          <svg class="icon-light">
+            <use href="/src/images/sprite.svg#icon-light"></use>
+          </svg>
+        </span>
+        <h3>
+          RGB BACKLIT
+          <br />
+          MODES
+        </h3>
+        <p class="paragraph__feature">
+          Choose from 4 backlight brightness levels and adjustable breathing
+          speed. Each key glows intensely in the dark and helps you type in low
+          light conditions.
+        </p>
+      </article>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer--company-name">Typemaster 2021 &nbsp;</p>
+      <p class="footer--rights">|&nbsp; All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
